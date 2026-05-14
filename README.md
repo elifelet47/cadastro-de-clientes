@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Planos Mega Net</title>
+    <style>
+        .plano {
+            display: block;
+            width: 200px;
+            margin: 30px auto; /* Aumentei a margem entre os botões */
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        .plano:hover {
+            background-color: #45a049;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto 40px auto; /* Aumentei o espaço abaixo da imagem */
+        }
+    </style>
+</head>
+<body>
+    <img src="banner.jpg" alt="Mega Net" />
+    <a href="https://meganettele.beesweb.com.br/pre-cadastro" class="plano">Plano 200 MB</a>
+    <a href="https://meganettele.beesweb.com.br/pre-cadastro" class="plano">Plano 400 MB</a>
+    <a href="https://meganettele.beesweb.com.br/pre-cadastro" class="plano">Plano 600 MB</a>
+</body>
+</html>
